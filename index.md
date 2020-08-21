@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Types: Part 1
 
-You can use the [editor on GitHub](https://github.com/techieji/Pythontut/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Python is a simple language. It has many intuitive concepts and easy to understand ideals. Since there is no reason to waste time, let's jump right in with types. A type is exactly what a type means. If two things have different types, they are different things. A type is a very important thing in the field of programming language, but we won't mess around with all that. All we need to do is to know why it's important and how to take advantage of it. Let us start with a real world example. A bed is a piece of furniture. A bowl of pasta is some food. If we thought that the bowl of pasta was a bed, things would be very wrong. Similarly, if a computer thinks that a number is a piece of text, things could go very wrong. So let's see how to prevent that.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+First, we should start the python interpreter. If you're on windows, open the executable which was installed when you executed the installer. It should be at the top of the list of apps, under 'newly installed'. If you're on Linux, type `python3` into the cmd-line. If these don't work, look elsewhere for how to run python and then come back here.
 
-### Markdown
+Well, now that we got python running, let's see what the interface is. You should see a a prompt like so:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+[... A bunch of text saying stuff about Python ... ]
+>>>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+When you type something, it appears after the `>>>`. In order to evaluate a python statement, you should enter something after the prompt and then press enter. The result should be printed out. Now that we've got the UI down, let's move on to types.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/techieji/Pythontut/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
